@@ -13,7 +13,7 @@ new ol.layer.Image({
    url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
    crossOrigin: 'anonymous',
    params: {
-     'SLD': 'http://users.aalto.fi/~lkajan/nls_wms/wmsstyles/vaalea.sld',
+     'SLD': 'http://lkajan.github.io/nls_sld_map/sldstyles/vaalea.sld',
      'FORMAT': 'image/png'
    },
    attributions: [
